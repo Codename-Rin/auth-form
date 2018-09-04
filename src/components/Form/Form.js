@@ -74,7 +74,7 @@ class Form extends Component {
                     }
                 })
                 .catch((error) => {
-                    this.setState({formMessage: 'Something went wrong.'})
+                    this.setState({formMessage: 'Something went wrong (request error).'})
                 });
         }
     }
@@ -150,7 +150,7 @@ class Form extends Component {
                             activated={formElement.config.activated}
                             changed={(e) => this.inputChanged(e, formElement.id)} />
                     ))}
-                    <input type="submit" value="Login" />
+                    <input type="submit" id="form-submit" value="Login" />
                 </fieldset>
                 <p className={messageClass.join(' ')}>{this.state.formMessage}</p>
             </form>
