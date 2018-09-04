@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    flex: 0 0 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: #093b8c;
+    margin-bottom: 20px;
+    height: 20px;
+    min-height: 60px;
+}
+.Header h1 {
+    font-size: 24px;
+    color: #ffffff;
+}
+@media (min-width: 500px) {
+    .Header {
+        min-height: 80px;
+    }
+    .Header h1 {
+        font-size: 32px;
+    }
+}

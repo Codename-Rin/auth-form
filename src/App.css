@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.App * {
+  box-sizing: border-box;
+}
+.App__form {
+  width: 92%;
+  max-width: 400px;
+}

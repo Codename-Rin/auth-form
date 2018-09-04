@@ -1,0 +1,32 @@
+.InputBox {
+    margin-bottom: 12px;
+}
+.Input {
+    display: block;
+    width: 100%;
+    -webkit-appearance: none;
+    box-shadow: 1px 1px 2px #ccc;
+    border: 1px solid #eee;
+    padding: 8px 6px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    font: inherit;
+}
+.Input:focus {
+    outline: none;
+    background-color: #eee;
+}
+.Label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #161616;
+    transition: color 0.3s ease;
+}
+
+.error {
+    border-color: red;
+    background-color: #ffbebe;
+}

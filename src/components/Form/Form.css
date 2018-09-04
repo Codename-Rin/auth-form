@@ -1,0 +1,58 @@
+.Form {
+    text-align: left;
+    border: 1px solid #eee;
+    box-shadow: 1px 2px 3px #ccc;
+    padding: 16px;
+    border-radius: 4px;
+}
+.Form fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.Form input[type=submit] {
+    background-color: #fff;
+    border: 2px solid blue;
+    border-radius: 3px;
+    padding: 6px 20px;
+    -webkit-appearance: none;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #161616;
+}
+.Form input[type=submit]:focus {
+    outline: none;
+}
+.Form input[type=submit]:hover {
+    background-color: blue;
+    color: #ffffff;
+}
+.Form input[type=submit]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.Form input[type=submit]:disabled:hover {
+    background-color: #fff;
+    color: #161616;
+}
+.hidden {
+    display: none;
+}
+.Msg {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: red;
+}
+.MsgError {
+    color: red;
+}
+.MsgSuccess {
+    color: green;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
